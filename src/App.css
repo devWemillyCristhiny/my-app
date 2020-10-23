@@ -1,0 +1,39 @@
+body {
+  background-color: #282c34;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+.Container {
+  height: 40vmin;
+  pointer-events: none;
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
+  
+ 
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .Container {
+    animation: App-logo-spin infinite 5s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
